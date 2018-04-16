@@ -11,7 +11,7 @@ class Index extends React.Component {
     super(props);
     this.state={
       videoOption1: {
-        onwrite:() => {alert("播放器显示完毕")}
+      onwrite:() => console.log(123)
       }
     }
   }
@@ -27,9 +27,13 @@ class Index extends React.Component {
             </WingBlank>
           </div>
           <section>
-            <TXVideo id="123" height={163} width={320} option={this.state.videoOption1} vid="e05388bike8"/>
+            <WingBlank>
+              <p className="title">播放功能讲解视频</p>
+              <TXVideo option={this.state.videoOption1} vid="e05388bike8"/>
+            </WingBlank>
           </section>
           <section>
+            <p className="title">详细分步骤讲解</p>
             <PhoneContent>
               <img className={'phone-within'} src={'../static/images/doctor1-2.gif'} />
             </PhoneContent>
