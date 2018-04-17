@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../compontents/layout'
 import { WingBlank, Steps } from 'antd-mobile';
-import Link from 'next/link'
 import PhoneContent from '../compontents/PhoneContent'
 import TXVideo from '../compontents/video/txVideo'
 const Step = Steps.Step;
@@ -11,14 +10,14 @@ class Index extends React.Component {
     super(props);
     this.state={
       videoOption1: {
-      onwrite:() => console.log(123)
+        onwrite:() => console.log(123)
       }
     }
   }
   render() {
     return (
       <div>
-        <Layout headerTitle={'健康屏'} hasHeader={1}>
+        <Layout headerTitle={'健康屏'} hasHeader={true}>
           <div>
             <p className="title">健康屏</p>
             <img className="title-img" src={'../static/images/health_icon-49.png'} />

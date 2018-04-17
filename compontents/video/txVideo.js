@@ -66,14 +66,22 @@ class TxVideo extends React.Component {
     }
   }
   create() {
-    var video = new tvp.VideoInfo()
-    var player = new tvp.Player();
-    video.setVid(this.state.options.vid);
-    player.create({
-      video: video,
-      modId: this.state.options.id,
-      ...this.state.options
-    });
+    if(!window.tvp){
+      setTimeout(()=>{
+        this.create()
+      },200)
+      return
+    } else {
+      var video = new tvp.VideoInfo()
+      var player = new tvp.Player();
+      video.setVid(this.state.options.vid);
+      player.create({
+        video: video,
+        modId: this.state.options.id,
+        ...this.state.options
+      });
+    }
+    
   }
   componentDidMount() {
     this.create()
@@ -84,7 +92,16 @@ class TxVideo extends React.Component {
         <Head>
           <script src={'http://imgcache.qq.com/tencentvideo_v1/tvp/js/tvp.player_v2.js'}></script>
         </Head>
-        <div id={this.state.options.id}>123</div>
+        <div style={{'minHeight':200}} id={this.state.options.id}></div>
+        <style jsx global>
+          {`
+          .tenvideo_player  video {
+            min-height:200px;
+            top:0 !important;
+            position: relative !important;
+          }
+          `}
+        </style>
       </div>
     )
   }
