@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="34px" viewBox="0 0 70 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Button/White/Back</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="98.8141741%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.1" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.05" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="70" height="34" rx="17"></rect>
+    </defs>
+    <g id="Icons/Navigation-Button/White/Back-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-8.000000, -11.000000)">
+        <g id="Icons/Button/White/Back" transform="translate(8.000000, 11.000000)">
+            <g id="top_btn_bg">
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" style="mix-blend-mode: overlay;" xlink:href="#path-2"></use>
+                <rect stroke-opacity="0.24" stroke="#000000" stroke-width="0.333" x="0.1665" y="0.1665" width="69.667" height="33.667" rx="16.8335"></rect>
+            </g>
+            <text id="Action1" font-family="PingFangSC-Medium, PingFang SC" font-size="16" font-weight="400" fill="#000000" fill-opacity="0.87">
+                <tspan x="23" y="22">返回</tspan>
+            </text>
+            <g id="icn_Black_Back">
+                <rect id="Rectangle" x="3" y="0" width="20" height="34"></rect>
+                <path d="M11.4122395,17.0110054 C11.4125294,17.2652915 11.5100251,17.5188525 11.7038524,17.7126798 L17.3672154,23.3760428 C17.7488644,23.7576918 18.3876503,23.7633127 18.7781746,23.3727884 C19.1714215,22.9795415 19.1701559,22.3505562 18.781429,21.9618293 L13.8284271,17.0088274 L18.781429,12.0558255 C19.163078,11.6741765 19.1686989,11.0353907 18.7781746,10.6448664 C18.3849276,10.2516194 17.7559424,10.252885 17.3672154,10.6416119 L11.7038524,16.304975 C11.5135573,16.4952701 11.4167483,16.7494932 11.4159193,17.0049939 L11.4122395,17.0110054 Z" fill-opacity="0.87" fill="#292929"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -17,7 +17,7 @@ class Index extends React.Component {
   render() {
     return (
       <div>
-        <Layout headerTitle={'健康屏'} hasHeader={true}>
+        <Layout headerTitle={'健康屏'}>
           <div>
             <WhiteSpace size="xl"></WhiteSpace>
             <p className="title">健康屏</p>

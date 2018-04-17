@@ -48,7 +48,7 @@ class Index extends React.Component {
   render() {
     return (
       <div>
-        <Layout headerTitle={'使用手册'} hasHeader={1}>
+        <Layout headerTitle={'使用手册'}>
           <ul>
             {this.Manual()}
           </ul>

@@ -10,7 +10,7 @@ class Index extends React.Component {
   render() {
     return (
       <div>
-        <Layout headerTitle={'家人圈'} hasHeader={true}>
+        <Layout headerTitle={'家人圈'}>
           <WhiteSpace size="xl"></WhiteSpace>
           <p className="title">健康屏</p>
           <img className="title-img" src={'../static/images/family_group-41.png'}/>

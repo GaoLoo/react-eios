@@ -15,7 +15,7 @@ class Index extends React.Component {
   render() {
     return (
       <div>
-        <Layout headerTitle={'小I智能语音'} hasHeader={true}>
+        <Layout headerTitle={'小I智能语音'}>
           <div>
             <WhiteSpace size="xl"></WhiteSpace>
             <img className="title-img" src={'../static/images/bot.svg'}/>
@@ -31,11 +31,6 @@ class Index extends React.Component {
             </WingBlank>
           </section>
         </Layout>
-        <style jsx>
-        {`
-
-        `}
-        </style>
       </div>
     )
   }
