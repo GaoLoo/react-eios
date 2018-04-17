@@ -22,7 +22,7 @@ class Layout extends React.Component {
           onLeftClick={() => history.back()}
         >{this.props.headerTitle}
         </NavBar>
-        <div className={`content ${this.props.hasHeader ? 'has-header' : ''}`}>
+        <div className={`content ${this.props.headerTitle ? 'has-header' : ''}`}>
           {this.props.children}
         </div>
         <style jsx>
